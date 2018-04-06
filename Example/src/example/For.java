@@ -4,16 +4,14 @@ public class For {
 
 	public static void main(String[] args) {
 		
-		int i;
-		int j;
+		int pen = 534;
+		int stu = 30;
 		
-		for (i=0; i<5; i++) {
-			for (j=0; j<=i; j++) {
-				System.out.print("*");
-			}
-			System.out.println();
-		}
+		int penStu = pen/stu;
+		System.out.println(penStu);
 		
+		int penLeft = pen%stu;
+		System.out.println(penLeft);
 		
 
 	}
